@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+
+<script type="text/javascript">
+
+var formInUse = false;
+
+function setFocus()
+{
+ if(!formInUse) {
+   document.google1.q.focus();
+ }
+}
+</script>
+
+<title>MyIP.is</title>
+	<style type="text/css">
+	<!--
+	body	{ background-color:#ffffff; }
+	td		{ font-family:verdana, geneva, sans-serif; font-size: 11px; color:#666666}
+	.big	{ font-size: 24px; font-weight:bold; color:#333333}
+	.bigblue	{ font-size: 24px; font-weight:bold; color:#336699}
+	a:hover		{ color:#666666; text-decoration:underline;}
+	a	{ color:#336699; text-decoration:none}
+	-->
+	</style>
+<link rel="SHORTCUT ICON" href="favicon.ico">
+<META name="description" content="ENG: Do you have to find out your IP address? http://myip.is - ISL: Þarftu að vita ip töluna þína? http://myip.is">
+<META name="keywords" content="ip, ip talan, ip tala, ip address, ip talan mín, talan, mín, hvað er ip talan mín, what is my ip address, find out what my ip address is, what is my current ip address, how do i find out what my ip address is, what is my public ip address, what is my external ip address, what is my ip address com, ip address what is my, linux what is my ip address, what is my tcp ip address, what is my computer's ip address, what is my internet ip address, what is my computers ip address, what is my real ip address, what is my ip address linux, how can i find out what my ip address is, what is the ip address of my computer, what is my computer ip address">
+	
+<!-- Copy-Text to Clipboard -->
+<!-- Greetings to bjarnij! -->
+<script language="Javascript">
+	function doCopy(text) {
+		holdtext.innerText = text;
+		Copied = holdtext.createTextRange();
+		Copied.execCommand("Copy");
+	}
+</script>
+
+
+</head>
+<body onload="setFocus();">
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81190980-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+<TEXTAREA ID="holdtext" STYLE="display:none;"></TEXTAREA>
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+
+<div align=center>
+<table border="0" width="100%" height="100%">
+<tr>
+	<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+	<tr>
+		<td><img src="img/logo.gif" border="0" align="left" width="165" height="71"></td>
+		<td valign=bottom align="right">
+<!-- Search Google -->
+<center>
+<form name="google1" method="get" action="http://www.google.com/custom" target="_top">
+<table bgcolor="#ffffff">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="middle"></img></a>
+<input type="text" name="q" size="31" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="Search"></input>
+<input type="hidden" name="client" value="pub-0401583334238416"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="channel" value="7742388315"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></table>
+</form>
+</center>
+</td></tr>
+	<tr>
+		<td colspan="2"><table border="0" cellpadding="1" cellspacing="0" width="100%">
+		<tr>
+			<td bgcolor="#666666"><table border="0" cellpadding="0" cellspacing="20" width="100%" bgcolor="#EAEAEA">
+			<tr>
+				<td><div class="big">Your IP address is:</div><br>
+				<div class="bigblue">
+				<!-- IP TALA ENG -->
+				<a href="javascript:doCopy('93.219.234.8')" title="copy ip address">93.219.234.8</a>
+				</div><br>
+				<div class="big">Your Hostname is:</div><br>
+				<div class="bigblue">
+				<a href="javascript:doCopy('p5DDBEA08.dip0.t-ipconnect.de')" title="copy hostname">p5DDBEA08.dip0.t-ipconnect.de</a>
+				</div><br>
+The IP used to connect to this webserver is 93.219.234.8				
+				</td>
+				<td>- Click your IP address to copy it to the clipboard<br>
+					- <a class="chlnk" href="javascript:void(0);" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://myip.is');">Set myip.is as your home page</a><br>
+					- <a href="javascript:void(0);" onclick="external.AddFavorite('http://myip.is/','myip.is - Your IP address');">Add myip.is to your favorites</a><br>
+				<!--	- <a href="traceback.php">traceroute from myip.is to your host</a><br> -->
+					- <a href="add_myip-en.html">add MyIP.Is to your homepage!</a></td>
+			</tr>			
+			</table></td>
+		</tr>
+		<!--Comments and alerts -->
+
+		</table></td>
+	</tr>
+	<tr>
+	<td colspan="2" align="right"><br><a href="mailto:info@myip.is"><b>info@myip.is</b></a><br>
+							      </div>
+</center>
+	</td>
+	</tr>
+
+	</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>
+

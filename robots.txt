@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /images/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /css/
+Disallow: /.idea/
+Disallow: /nbproject/
+Sitemap: https://www.friederike-raum.de/sitemap.xml
