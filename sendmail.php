@@ -41,8 +41,8 @@ elseif (isInjected($email_address)) {
 
 // If we passed all previous tests, send the email!
 else {
-    mail("info@friederike-raum.de", "Kontaktanfrage von" . $email_name,
-            $comments, "From: $email_address");
+    mail("info@friederike-raum.de", "Kontaktanfrage von " . $email_name,
+            $comments, "Reply-To: $email_address");
     header("Location: gesendet.html");
 }
 ?>
