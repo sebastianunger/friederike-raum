@@ -30,6 +30,37 @@ function allowJustGermany($str)
     }
 }
 
+function noLinks($str)
+{
+    $pattern = "href";
+    if (strpos($str, $pattern) !== false) {
+        return true;
+    }
+    $pattern = "http";
+    if (strpos($str, $pattern) !== false) {
+        return true;
+    }
+    $pattern = "www";
+    if (strpos($str, $pattern) !== false) {
+        return true;
+    }
+    $pattern = "url";
+    if (strpos($str, $pattern) !== false) {
+        return true;
+    }
+    return false;
+}
+
+function noOwnEmail($str)
+{
+    $pattern = "friederike-raum";
+    if (strpos($str, $pattern) === false) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 // Load form field data into variables.
 $email_name = $_REQUEST['email_name'];
 $email_address = $_REQUEST['email_address'];
@@ -42,10 +73,15 @@ if (!isset($_REQUEST['email_address'])) {
 elseif (empty($email_address) || empty($comments)) {
     header("Location: error.html");
 } // If email injection is detected, redirect to the error page.
+elseif (noOwnEmail($email_address)) {
+    header("Location: error.html");
+} // If email injection is detected, redirect to the error page.
 elseif (isInjected($email_address)) {
     header("Location: error.html");
 } // Only emails from Germany allowed
 elseif (allowJustGermany($email_address)) {
+    header("Location: error.html");
+} elseif (noLinks($comments)) {
     header("Location: error.html");
 } // If we passed all previous tests, send the email!
 else {

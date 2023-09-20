@@ -19,7 +19,7 @@
     <header>
         <div id="banner">
             <div id="welcome">
-                <h2>Reitlehrerin und Bereiterin</h2>
+                <h2>Ponyreitschule Friederike Raum</h2>
             </div><!--close welcome-->
         </div><!--close banner-->
     </header>
@@ -28,8 +28,9 @@
             <ul id="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aktuell.html">Aktuelles</a></li>
-                <li><a href="pferde.html">Pferde</a></li>
-                <li><a href="ponyreitschule.html">Ponyreitschule</a></li>
+                <li><a href="ponys.html">Ponys</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="qualifikation.html">Qualifikationen</a></li>
                 <li class="current"><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div><!--close menubar-->
@@ -41,13 +42,10 @@
             <ul class="slideshow">
                 <li class="show"><img alt="&quot;Robbie 8&quot;" height="300" src="images/4326181880_9149992027_b.jpg"
                                       width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser.jpg" width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser3.jpg" width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser7.jpg" width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser4.jpg" width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser5.jpg" width="940"/></li>
-                <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser6.jpg" width="940"/></li>
                 <li><img alt="&quot;Leparello&quot;" height="300" src="images/rello_teaser2.jpg" width="940"/></li>
+                <li><img alt="&quot;Anka mit Rio&quot;" height="300" src="images/anka.jpeg" width="940"/></li>
+                <li><img alt="&quot;Gruppenfoto&quot;" height="300" src="images/gruppenfoto.jpeg" width="940"/></li>
+                <li><img alt="&quot;Ponys&quot;" height="300" src="images/ponys.jpeg" width="940"/></li>
             </ul>
         </div><!--close slideshow-->
 
@@ -103,22 +101,14 @@
 <!-- javascript at the bottom for fast page loading -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/image_slide.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B90Z48X518"></script>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    ga('create', 'UA-78357153-1', 'auto');
-    ga('send', 'pageview');
-
+    gtag('config', 'G-B90Z48X518');
 </script>
 </body>
 </html>
